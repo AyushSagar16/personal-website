@@ -1,0 +1,70 @@
+@font-face {
+    font-family: highrise;
+    src: url(highrise.otf);
+}
+
+body {
+    background-color: #DFDFDF;
+}
+
+#particle {
+    height: 100vh;
+    overflow: hidden;
+    background: #DFDFDF;
+}
+
+h1 {
+    font-family: highrise;
+    font-size: 256px;
+    color: #343434;
+    text-shadow: none;
+    transition: 0.5s;
+}
+
+body {
+    cursor: url(cursor.png), auto;
+}
+
+
+h1:hover {
+    text-shadow: 20px 20px #FCFCFC;
+    transition: 0.5s;
+}
+
+i {
+    font-size: 64px;
+}
+
+.center {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    width: 100%;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Center horizontally*/
+    margin: 0 auto;
+}
+
+div#full-size{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow:hidden;
+}
+a {
+    text-decoration: none;
+    color: #343434;
+}
+
