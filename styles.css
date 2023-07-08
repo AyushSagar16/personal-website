@@ -3,12 +3,16 @@
     src: url(highrise.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DFDFDF;
 }
 
 #particle {
-    height: 100vh;
+    height: 98vh;
     overflow: hidden;
     background: #DFDFDF;
 }
@@ -43,8 +47,8 @@ i {
 .heading {
     position: absolute;
     text-align: center;
-    top: 5%;
-    width: 100%;
+    top: 10%;
+    width: 99%;
 }
 
 .child {
